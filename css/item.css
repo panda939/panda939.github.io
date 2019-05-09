@@ -181,6 +181,9 @@ li > .catalog-item:hover {
     color: #403f3f;
     
  }
+ a h2{
+    color: #212529;
+ }
  .info{
     font-size: 15px;
  }
