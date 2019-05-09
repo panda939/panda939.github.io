@@ -355,7 +355,9 @@ ul.lmenu {
 
 .post_footer{
     display: flex;
+    font-size: 15px
 }
+
 .reating{
     margin-left: auto;
 }
