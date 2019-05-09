@@ -354,8 +354,8 @@ ul.lmenu {
 }
 
 .post_footer{
-    margin: 0 -50px;
-    width: inherit;
+    display: flex;
+    font-size: 15px
 }
 
 .reating{
