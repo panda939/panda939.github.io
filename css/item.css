@@ -1,0 +1,262 @@
+fbody > [role="complementary"]{padding-top: 300px;}
+.itempage{}
+.header{
+ background-image: url(https://wallpapercave.com/wp/kGj2k4p.jpg);
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+.header, .overlay{
+ height: 50vh;
+ width: -webkit-fill-available;
+}
+.overlay font {
+    font-size: 10vh;
+    color: white;
+}
+.overlay {
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.5);
+}
+.imgitem{
+    padding: 15px 0;
+}
+.imgitem img{
+    border-radius: 30px;
+}
+.hblock{
+/* flex: 0 0 100%;
+ max-width: 100%;*/
+}
+
+.nblock{}
+.rblock{
+    max-height: 0;
+}
+ font{
+text-shadow: -2px 4px 3px rgb(101, 101, 101);
+}
+.footer, .title, .post_item, .socal, .shoplist, [role="complementary"]{
+ margin-top: 30px;
+}
+.title, .post_item, .socal, .shoplist {
+    background: white;
+    padding: 30px 200px;
+
+}
+
+
+.button{
+ font-weight: bold;
+    text-align: -webkit-center;
+    background: #0094e9;
+    color: white;
+    margin-top: 10px;
+    padding: 20px 20px;
+    }
+.title, .post_item, .socal, .shoplist, .listbuy, .left-menu, .button{
+ border-radius: 5px;
+
+}
+
+.shoplist{
+ padding: 0px 0px;
+}
+.mininf {
+    background: #d8ecf6;
+    padding: 20px;
+    margin: -5px 0px;
+}
+.os{
+ float: right;
+}
+
+.infblock{
+    position: relative;
+    background: white;
+    top: 30px;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: -5px;
+}
+.infblock span, .tag span{
+    position: relative;
+    font-weight: bolder;
+    background: blueviolet;
+    color: #ffffff;
+    padding: 3px;
+    border-radius: 3px;
+}
+.title{
+ padding: 10px 20px;
+ position: relative;
+ border: solid 1px gray;
+}
+
+.place{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.listbuy {
+    color: black;
+    padding: 20px;
+}
+
+.listbuy > .catalog-item__price-span {
+    background-color: black;
+}
+.ispay{
+ width: 30px;
+}
+.ispay > img{
+    width: inherit;
+}
+.listbuy > span{
+   margin-left: 10px;
+}
+.priceline{
+    /* position: absolute; */
+    /* right: 16px; */
+    /* bottom: 13px; */
+    margin: 35px 0 0 0;
+}
+
+.catalog-item__price-span {
+    text-align: left;
+    color: black;
+    width: 85px;
+}
+.catalog-item__price-span_old{
+    color: #868686;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+
+.catalog-item__price {
+    background-color: #ffffff;
+    padding: 2px;  
+}
+li > .catalog-item:hover {
+    -webkit-box-shadow: 0 0 15px rgba(83, 172, 216, 0.58);
+    box-shadow: 0 0 15px rgba(83, 172, 216, 0.58);
+    z-index: 2;
+}  
+
+.product__buy-button {
+    font-family: Play,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #0094e9;
+    border: 0;
+    color: #fff;
+    padding: 12px 4px;
+    float: right;
+    position: relative;
+    outline: 0;
+}
+.catalog-item__discount {
+    background-color: #01b599;
+    font-size: 14px;
+    color: #fff;
+    padding: 12px 4px;
+    margin-right: 8px;
+    display: block;
+    min-width: 55px;
+    text-align: center;
+}
+ .post, .posts{
+    font-family: 'Roboto',Tahoma;
+    font-size: 18px;
+
+ }
+ .post a, .posts a {
+    color: #868686;
+    font-size: 16px;
+ }
+  .post a:hover, .posts a:hover {
+    color: #403f3f;
+    
+ }
+ .info{
+    font-size: 15px;
+ }
+ .auther,time{
+    color: #6d6d6d;
+ }
+.post .img_fild:first-child{
+    padding: 0;
+    margin:  0 -200px;
+    width: inherit;
+}
+
+.g_menu{
+   display: none;
+}
+
+@media (max-width: 991px){
+
+.title, .post_item, .socal, .shoplist {
+    background: white;
+    padding: 30px 50px;
+
+}
+.post .img_fild:first-child{
+    padding: 0;
+    margin:  0 -50px;
+    width: inherit;
+}
+
+ .rblock{
+  max-height: 100%;
+  max-width: 100%;
+  flex: 100%;
+ }
+  .mblock{
+  max-width: 100%;
+  flex: 100%;
+ }
+   .hblock{
+  max-width: 100%;
+  flex: 100%;
+ }
+
+
+
+}
+
+
+}@media (max-width: 991px){
+ .overlay font {
+     font-size: 7vh;
+ 
+ }
+
+}
+@media (max-width: 500px){
+ .itempage {
+    padding: 0;
+}
+
+[role="main"] {
+    margin: 0;
+    overflow: hidden;
+}
+}
+
+@media (max-width: 490px){
+ .overlay font {
+     font-size: 6vh;
+ 
+ }
+}
+@media (max-width: 992px){
+    .img_fild{
+    padding: 0;
+    margin:  0 -200px;
+    width: 800px;
+}
+}

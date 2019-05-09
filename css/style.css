@@ -1,0 +1,371 @@
+*{
+ font-size: 1em;
+}
+
+body{
+ font-family: Open Sans,Arial,Helvetica,Verdana,sans-serif;
+ background: #f3f3f3;
+}
+.header, .overlay{
+ height: 30vh; 
+}
+.navbar{
+ position: relative;
+ background:#203c4a;
+ padding: 0.2rem 1rem;
+}
+.nav-link , .navbar-brand{
+ color: #f4f4f4;
+ cursor: pointer;
+}
+.nav-link{
+ margin-right: 1em !important;
+}
+.nav-link:hover{
+ background: #f4f4f4;
+ color: #f97300;
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+
+/*header style*/
+.header{
+ background-image: url(https://wallpapercave.com/wp/mdUL1Dh.jpg);
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay{
+ left: 0;
+ top: 0;
+ background: rgba(244, 244, 244, 0.79);
+}
+.overlay font{
+ font-size: 5vh;
+}
+
+.description{
+    margin: auto;
+    padding: 10vh;
+}
+.description h1{
+ color:#F97300 ;
+}
+.description p{
+ color:#666;
+ font-size: 3vh;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid #F97300;
+ background:#F97300;
+ color:#fff;
+}
+/*main style*/
+.container-fluid {
+    max-width: 1236px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+ [role="main"]{
+      margin: 20px;
+ }
+
+.left-menu  ul {
+  padding: 0;
+}
+.left-menu > ul > li{
+  list-style-type:none;
+}
+
+.list{
+    position: relative;
+    padding: 19px 22px;
+
+    display: -ms-flexbox;
+    display: flex;
+
+}
+.list:hover {
+
+}
+.lblock,.topblock{
+  background: white;
+  
+}
+.mblock,.lblock,.topblock{
+ border-radius: 5px;
+}
+.catalog-item {
+    position: relative;
+    padding: 10px 10px;
+    transition: box-shadow .3s ease,background-color .3s ease;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fff;
+}
+.catalog-item__activation{
+     width: 20%;
+    padding: 5px;
+}
+.catalog-item__activation img{
+     width: 100%;
+}
+.catalog-item:hover {
+    -webkit-box-shadow: 0 0 15px rgba(83, 172, 216, 0.58);
+    box-shadow: 0 0 15px rgba(83, 172, 216, 0.58);
+    z-index: 2;
+}
+
+a:focus, a:hover {
+    color: #ff793a;
+    text-decoration: none;
+}
+a:active, a:hover {
+    outline: 0;
+}
+
+.catalog-item__img {
+    width: 152px;
+    min-width: 152px;
+}
+.catalog-item__img img {
+    max-width: 100%;
+}
+.catalog-item__name {
+    padding-left: 27px;
+    padding-right: 15px;
+    vertical-align: middle;
+    color: #0a0a0a;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    font-size: 16px;
+    font-weight: 400;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 430px;
+    text-overflow: ellipsis;
+}
+.catalog-item__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #969696;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.catalog-item__price {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 auto;
+    flex: 1 auto;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    font-family: Play,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+.catalog-item__discount {
+    background-color: #01b599;
+    font-size: 14px;
+    color: #fff;
+    padding: 3px 4px;
+    margin-right: 8px;
+    display: block;
+    min-width: 55px;
+    text-align: center;
+}
+.catalog-item__price-span {
+    width: 65px;
+    text-align: right;
+}
+
+.footer {
+    overflow: hidden;
+    padding: 70px 0 35px;
+    background: #0d0e10;
+    color: hsla(0,0%,100%,.3);
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+}
+
+.navcontennt{
+border-bottom: 1px solid #ddd;
+}
+ .topblock  .nav-link{
+     color: #ff0000;
+     position:relative;
+}
+.nav-item > .active:after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+    background: #007bff;
+}
+
+
+.search{
+ width: 60%
+}
+.active-cyan-2 input[type=text]:focus:not([readonly]) {
+border-bottom: 1px solid #4dd0e1;
+box-shadow: 0 1px 0 0 #4dd0e1;
+}
+.active-cyan input[type=text] {
+border-bottom: 1px solid #4dd0e1;
+box-shadow: 0 1px 0 0 #4dd0e1;
+}
+
+
+ .topblock > .nav {
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 600px){
+ .topblock > .nav {
+  padding-left: 40px;
+ }
+ul.lmenu {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+.lblock{
+ background: none;
+}
+.left-menu{
+ background: #ffffff
+}
+.list{
+     padding: 15px 15px;
+}
+ [role="main"] {
+    margin: 5px;
+}
+  [role="main"] > .container {
+        padding-right: 0px;
+    padding-left: 0px;
+}
+ .catalog-item {
+    padding: 10px 15px;
+}
+.catalog-item__img {
+    min-width: 80px;
+    width: 80px;
+}
+ 
+ .catalog-item__name {
+    font-size: 13px;
+    padding: 0 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-line-clamp: 2;
+    -ms-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    -ms-flex-orient: vertical;
+    line-height: 1.5;
+    white-space: normal;
+}
+.catalog-item__price {
+    font-size: 14px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    min-width: 70px;
+
+}
+ .catalog-item__discount {
+    font-size: 13px;
+    padding: 0;
+    margin-right: 5px;
+    min-width: 36px;
+}
+
+}
+@media(max-width: 320px){
+
+.left-menu > ul > li {
+    width: 50px;
+    margin: 0 5px;
+}
+ 
+ .topblock > .nav {
+    padding-left: 0;
+}
+.mainpage{
+ 
+}
+ 
+}
+.h1_z{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+.info img{
+    padding: 5px;
+    width: 40px;
+}
+.info span{
+    margin-right: 10px;
+}
+
+.post_footer{
+    display: flex;
+}
+.reating{
+    margin-left: auto;
+}
+
+.posts .img_fild:first-child{
+    padding: 0;
+    margin:  0 -30px !important;
+    width: inherit;
+}
+.home{
+    padding: 30px 30px !important;
+}
+
