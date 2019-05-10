@@ -123,11 +123,6 @@ body{
 .catalog-item__activation img{
      width: 100%;
 }
-.catalog-item:hover {
-    -webkit-box-shadow: 0 0 15px rgba(83, 172, 216, 0.58);
-    box-shadow: 0 0 15px rgba(83, 172, 216, 0.58);
-    z-index: 2;
-}
 
 a:focus, a:hover {
     color: #ff793a;
@@ -137,38 +132,8 @@ a:active, a:hover {
     outline: 0;
 }
 
-.catalog-item__img {
-    width: 152px;
-    min-width: 152px;
-}
-.catalog-item__img img {
-    max-width: 100%;
-}
-.catalog-item__name {
-    padding-left: 27px;
-    padding-right: 15px;
-    vertical-align: middle;
-    color: #0a0a0a;
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
-    font-size: 16px;
-    font-weight: 400;
-    overflow: hidden;
-    white-space: nowrap;
-    max-width: 430px;
-    text-overflow: ellipsis;
-}
-.catalog-item__info {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    color: #969696;
-    font-size: 14px;
-    margin-top: 5px;
-}
+
+
 .catalog-item__price {
     -webkit-box-flex: 1;
     -ms-flex: 1 auto;
@@ -215,9 +180,6 @@ a:active, a:hover {
     flex-grow: 0;
 }
 
-.navcontennt{
-border-bottom: 1px solid #ddd;
-}
  .topblock  .nav-link{
      color: #ff0000;
      position:relative;
@@ -358,6 +320,8 @@ ul.lmenu {
 .home{
     padding: 30px 30px !important;
 }
+
+
 
 
 @media (max-width: 400px){
