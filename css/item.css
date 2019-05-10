@@ -249,11 +249,16 @@ li > .catalog-item:hover {
 }
 }
 
-@media (max-width: 490px){
+@media (max-width: 400px){
  .overlay font {
      font-size: 6vh;
  
  }
+ .title, .post_item, .socal, .shoplist {
+    background: white;
+    padding: 30px 15px;
+
+}
 }
 @media (max-width: 992px){
     .img_fild{
