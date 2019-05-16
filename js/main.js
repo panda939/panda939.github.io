@@ -14,4 +14,16 @@ $(".c_menu").click(function() {
 });
 
 
+
+function windowSize(){
+    if ($(window).width() >= '991'){
+        $('.phone_nav').hide();
+    } else {
+        $('.phone_nav').show();
+
+    }
+}
+$(window).on('load resize',windowSize);
+
+
 });

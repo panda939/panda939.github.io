@@ -69,7 +69,7 @@ text-shadow: -2px 4px 3px rgb(101, 101, 101);
 
 .listbuy {
     color: black;
-    padding: 20px;
+   /* margin: 20px; */
 }
 
 .listbuy > .catalog-item__price-span {
@@ -147,6 +147,9 @@ text-shadow: -2px 4px 3px rgb(101, 101, 101);
    .hblock{
   max-width: 100%;
   flex: 100%;
+ }
+ .ctg{
+    display: none;
  }
 
 
