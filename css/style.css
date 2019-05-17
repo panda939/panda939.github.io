@@ -8,6 +8,7 @@ body{
 }
 .navbar{
     background: #203c4a;
+    padding: .2rem 15rem;
 }
 .header, .overlay{left-menu
  height: 30vh; 
@@ -380,4 +381,17 @@ ul.lmenu {
  
 }
  
+}
+
+@media (max-width: 991px){
+ .overlay font {
+     font-size: 7vh;
+ 
+ }
+
+ .navbar{
+    background: #203c4a;
+    padding: .2rem 3rem;
+}
+
 }

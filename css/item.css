@@ -156,11 +156,34 @@ text-shadow: -2px 4px 3px rgb(101, 101, 101);
 }
 
 
-}@media (max-width: 991px){
+.user_avatar{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.user_avatar img{
+    width: inherit;
+}
+
+.user_reating{
+    position: relative;
+}
+.user_reating{
+    position: absolute;
+    right: 0;
+}
+
+}
+@media (max-width: 991px){
  .overlay font {
      font-size: 7vh;
  
  }
+
+ .navbar{
+    background: #203c4a;
+    padding: .2rem 10rem!important;
+}
 
 }
 @media (max-width: 500px){
