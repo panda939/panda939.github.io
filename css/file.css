@@ -3,8 +3,9 @@
 	color: #212529;
 }
 .f_ver{
-	font_size: 0.8rem;
+	font-size: 0.8rem;
 	color: #6d6d6d;
+	    position: absolute;
 }
 .f_img{
 	width: 60px;
@@ -19,4 +20,11 @@
 }
 .f_footer{
     justify-content: center;
+}
+
+
+.post .img_fild:first-child {
+    padding: 0;
+    margin: 0 -30px;
+    width: inherit;
 }
