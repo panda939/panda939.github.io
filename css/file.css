@@ -1,0 +1,22 @@
+.f_title{
+	font-size: 1.2rem;
+	color: #212529;
+}
+.f_ver{
+	font_size: 0.8rem;
+	color: #6d6d6d;
+}
+.f_img{
+	width: 60px;
+    height: auto;
+    margin-top: -70px;
+
+}
+.f_img img{
+	width: inherit;
+	position: relative;
+    top: 15px;
+}
+.f_footer{
+    justify-content: center;
+}

@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/item.css"><!-- CSS-->
+    <link rel="stylesheet" type="text/css" href="css/file.css"><!-- CSSfile-->
     <!--<script type="text/javascript" src="js/main.js"></script> JS-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <meta charset="utf-8"> <!-- Кодировка страницы-->
@@ -52,28 +53,22 @@
     <div class="profile_card ">
       <div class="user_info ">
         <div class="user_info_top d-flex   align-items-center">
-          <div class="user_date mb-3"><span>Зарегистрировался 6 мар 2018</span></div>
+          <div class="mb-3"><span>Category Item</span></div>
         <div class="user_avatar mb-3"><img src="./img/wth.png"></div>
-        <div class="user_reating mb-3"><span>+99999999999</span></div>
+        <div class="user_reating mb-3" ><span style="color:#7d7d7d; ">Отписаться</span></div>
         
         
         </div>
-        <span class="user_name"><span class="sobaka_sutulaya">@</span>Username</span>
-        <span class="user_name"><span class="sobaka_sutulaya">vk</span>Username</span>
-        <span class="user_name"><span class="sobaka_sutulaya">skype</span>Username</span>
-        <span class="user_name"><span class="sobaka_sutulaya">Telegram</span>Username</span>
-         </div>
-        <div class="user_buttons d-flex justify-content-around align-content-between flex-wrap p-2">
-        <span><a href="#">Уведомления</a><a class="notif" href="#">+1</a></span>
-        <a href="#">Выход</a>
-        </div>
+
         <div class="user_nav d-flex flex-column align-items-center ">
-        <a href="#">Статьи</a>
-        <a href="#">Коментарии</a>
-        <a href="#">Подписки</a>
-        <a href="#">Закладки</a>
-        <a href="#">Настройки</a>
-       <!--  <a href="#">Подписаться</a> -->
+        <a href="#" style="
+    color: #00aaff;
+">Последнее</a>
+        <a href="#">Записи</a>
+        <a href="#">Файлы</a>
+<!--         <a href="#">Патчи</a>
+        <a href="#">Другое</a> -->
+
         </div>
 
      
@@ -90,14 +85,17 @@
                    
 <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 hblock">
 <div class="posts">
+  <div class="post_item sort"><span><a href="#">Свежее</a></span><span><a href="#">Лучшее</a></span></div>
 <div class="post_item home">
 <article>
         <header>
+        <div class="f_img mb-3"><img src="./img/wth.png"></div>
           <div class="info">
-          <span class="catalog"><img src="./img/wth.png">Minecraft</span>
-          <span class="auther">Mr.WeB</span>
-         <time class="time" title="30.04.2019 19:49:52 (Europe/Moscow)" air-module="module.date" air-date-timestamp="1556642992" air-date-short="true">56&nbsp;минут&nbsp;назад</time>
-         <a  class="p-2 bd-highlight" href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+         <a href="#"><span class="f_title"><span class="auther">[Plagin]</span>Title File</span><span class="f_ver">version 1.2.5</span></a> 
+            
+          
+    
+        
          <span class="c_menu float-right"><a class="p-2 bd-highlight" href="#"><i class="fa fa-cog" aria-hidden="true"></i></a></span>
           <span class="g_menu float-right">
            <a  class="p-2 bd-highlight" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
@@ -106,35 +104,26 @@
            <a  class="p-2 bd-highlight" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
          </span>
          </div>
-         <a href="/itempage"><h2>Article Title 1</h2></a>
         </header>
         <a href="/itempage"><section>
+             
+        
         <p class="desc">Article Short Description</p>
-          <figure>
-            <div class="img_fild">
-              
-          <img src="./img/wh.webp" class="img-fluid" alt="Адаптивные изображения">
-            </div>
-          </figure>
           </section></a>
-          <footer class="post_footer">
-             <a class="p-2 bd-highlight" href=""><i class="fa fa-comments" aria-hidden="true"></i> 0</a>
-            <div class="reating p-2 bd-highlight">
-            <i class="fa fa-chevron-up" aria-hidden="true"></i>
-            <span>123</span>
-            <i class="fa fa-chevron-down" aria-hidden="true"></i>
-          </div>
-          </footer>
+          <footer class="post_footer f_footer">
+           <a href="#">Cкачать [1.2.5]</a>          </footer>
       </article>
         </div>
-       <div class="post_item home">
+        <div class="post_item home">
 <article>
         <header>
+        <div class="f_img mb-3"><img src="./img/wth.png"></div>
           <div class="info">
-          <span class="catalog"><img src="./img/wth.png">Minecraft</span>
-          <span class="auther">Mr.WeB</span>
-         <time class="time" title="30.04.2019 19:49:52 (Europe/Moscow)" air-module="module.date" air-date-timestamp="1556642992" air-date-short="true">56&nbsp;минут&nbsp;назад</time>
-         <a  class="p-2 bd-highlight" href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+         <a href="#"><span class="f_title"><span class="auther">[Plagin]</span>Title File</span><span class="f_ver">version 1.2.5</span></a> 
+            
+          
+    
+        
          <span class="c_menu float-right"><a class="p-2 bd-highlight" href="#"><i class="fa fa-cog" aria-hidden="true"></i></a></span>
           <span class="g_menu float-right">
            <a  class="p-2 bd-highlight" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
@@ -143,35 +132,27 @@
            <a  class="p-2 bd-highlight" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
          </span>
          </div>
-         <a href="/itempage"><h2>Article Title 1</h2></a>
         </header>
         <a href="/itempage"><section>
+             
+        
         <p class="desc">Article Short Description</p>
-          <figure>
-            <div class="img_fild">
-              
-          <img src="./img/wh.webp" class="img-fluid" alt="Адаптивные изображения">
-            </div>
-          </figure>
           </section></a>
           <footer class="post_footer">
-             <a class="p-2 bd-highlight" href=""><i class="fa fa-comments" aria-hidden="true"></i> 0</a>
-            <div class="reating p-2 bd-highlight">
-            <i class="fa fa-chevron-up" aria-hidden="true"></i>
-            <span>123</span>
-            <i class="fa fa-chevron-down" aria-hidden="true"></i>
-          </div>
+           
           </footer>
       </article>
         </div>
         <div class="post_item home">
 <article>
         <header>
+        <div class="f_img mb-3"><img src="./img/wth.png"></div>
           <div class="info">
-          <span class="catalog"><img src="./img/wth.png">Minecraft</span>
-          <span class="auther">Mr.WeB</span>
-         <time class="time" title="30.04.2019 19:49:52 (Europe/Moscow)" air-module="module.date" air-date-timestamp="1556642992" air-date-short="true">56&nbsp;минут&nbsp;назад</time>
-         <a  class="p-2 bd-highlight" href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+         <a href="#"><span class="f_title"><span class="auther">[Plagin]</span>Title File</span><span class="f_ver">version 1.2.5</span></a> 
+            
+          
+    
+        
          <span class="c_menu float-right"><a class="p-2 bd-highlight" href="#"><i class="fa fa-cog" aria-hidden="true"></i></a></span>
           <span class="g_menu float-right">
            <a  class="p-2 bd-highlight" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
@@ -180,35 +161,27 @@
            <a  class="p-2 bd-highlight" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
          </span>
          </div>
-         <a href="/itempage"><h2>Article Title 1</h2></a>
         </header>
         <a href="/itempage"><section>
+             
+        
         <p class="desc">Article Short Description</p>
-          <figure>
-            <div class="img_fild">
-              
-          <img src="./img/wh.webp" class="img-fluid" alt="Адаптивные изображения">
-            </div>
-          </figure>
           </section></a>
           <footer class="post_footer">
-             <a class="p-2 bd-highlight" href=""><i class="fa fa-comments" aria-hidden="true"></i> 0</a>
-            <div class="reating p-2 bd-highlight">
-            <i class="fa fa-chevron-up" aria-hidden="true"></i>
-            <span>123</span>
-            <i class="fa fa-chevron-down" aria-hidden="true"></i>
-          </div>
+           
           </footer>
       </article>
         </div>
        <div class="post_item home">
 <article>
         <header>
+        <div class="f_img mb-3"><img src="./img/wth.png"></div>
           <div class="info">
-          <span class="catalog"><img src="./img/wth.png">Minecraft</span>
-          <span class="auther">Mr.WeB</span>
-         <time class="time" title="30.04.2019 19:49:52 (Europe/Moscow)" air-module="module.date" air-date-timestamp="1556642992" air-date-short="true">56&nbsp;минут&nbsp;назад</time>
-         <a  class="p-2 bd-highlight" href="#"><i class="fa fa-check" aria-hidden="true"></i></a>
+         <a href="#"><span class="f_title"><span class="auther">[Plagin]</span>Title File</span><span class="f_ver">version 1.2.5</span></a> 
+            
+          
+    
+        
          <span class="c_menu float-right"><a class="p-2 bd-highlight" href="#"><i class="fa fa-cog" aria-hidden="true"></i></a></span>
           <span class="g_menu float-right">
            <a  class="p-2 bd-highlight" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
@@ -217,24 +190,14 @@
            <a  class="p-2 bd-highlight" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
          </span>
          </div>
-         <a href="/itempage"><h2>Article Title 1</h2></a>
         </header>
         <a href="/itempage"><section>
+             
+        
         <p class="desc">Article Short Description</p>
-          <figure>
-            <div class="img_fild">
-              
-          <img src="./img/wh.webp" class="img-fluid" alt="Адаптивные изображения">
-            </div>
-          </figure>
           </section></a>
           <footer class="post_footer">
-             <a class="p-2 bd-highlight" href=""><i class="fa fa-comments" aria-hidden="true"></i> 0</a>
-            <div class="reating p-2 bd-highlight">
-            <i class="fa fa-chevron-up" aria-hidden="true"></i>
-            <span>123</span>
-            <i class="fa fa-chevron-down" aria-hidden="true"></i>
-          </div>
+           
           </footer>
       </article>
         </div>

@@ -235,6 +235,13 @@ text-shadow: -2px 4px 3px rgb(101, 101, 101);
     width: calc(100% - 30px);
     height: 1px;
 }
+.sort{
+padding: 15px 0;
+}
+
+.sort span{
+    margin-right: 20px;
+    padding: 20px;
 }
 @media (max-width: 991px){
  .overlay font {
